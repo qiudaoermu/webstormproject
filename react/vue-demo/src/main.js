@@ -2,6 +2,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './routes.js'
+
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './assets/styles/base.css'
 //import './assets/sass/reset.sass'//报错暂时不用sass
