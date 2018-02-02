@@ -19,6 +19,7 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-0": "^6.24.1",
+    "compression": "^1.7.1",
     "copy-webpack-plugin": "^4.3.1",
     "css": "^2.2.1",
     "css-loader": "^0.28.8",
@@ -30,6 +31,7 @@
     "imagemin-webpack-plugin": "^2.0.0",
     "json-loader": "^0.5.7",
     "json-stable-stringify": "^1.0.1",
+    "koa-ejs": "^4.1.0",
     "purify-css": "^1.2.5",
     "purifycss-webpack": "^0.7.0",
     "rework": "^1.0.1",
@@ -45,6 +47,12 @@
     "bootstrap": "^3.3.7",
     "clean-css": "^4.1.9",
     "css-loader": "^0.28.9",
-    "jquery": "^3.2.1"
+    "express": "^4.16.2",
+    "fs.promised": "^3.0.0",
+    "jquery": "^3.2.1",
+    "koa": "^2.4.1",
+    "koa-static": "^4.0.2",
+    "swig": "^1.4.2",
+    "webpack-remove-hashed-files": "^1.1.1"
   }
 }

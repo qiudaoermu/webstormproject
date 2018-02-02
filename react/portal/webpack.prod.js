@@ -9,6 +9,9 @@ const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const common = require('./webpack.common.js');
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+
+const removeFiles = require('webpack-remove-hashed-files');
+const buildDir = './public/dist/';
 module.exports = merge(common, {
     output: { //打包路径
 
@@ -37,6 +40,7 @@ module.exports = merge(common, {
 
     devtool: 'source-map', // 为了可以在控制台跟踪到自己的代码位置，精确到行
     plugins: [
+        new removeFiles(buildDir),
         new HtmlWebpackPlugin({
             filename: path.resolve(__dirname, './public/index.html'),
             template: './src/temple/index.html',

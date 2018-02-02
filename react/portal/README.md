@@ -35,3 +35,6 @@ npm run build #线上环境
  -webpack-bundle-analyzer
 |
  -查看文件打包的文件内容
+ -webpack-remove-hashed-files
+|
+ -清除hash值文件 vendor文件排除外
